@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jérôme Raffin - UX/UI Designer et développeur web</title>
+        <meta name="description" content="UX/UI designer et développeur web à Bordeaux, applications web progressives, Javascript, AngularJS, CSS3, HTML5">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            html {
+                /* Box model */
+                box-sizing: border-box;
+                /* Typo */
+                font-size: 16px;
+            }
+            *, *:before, *:after {
+                box-sizing: inherit;
+            }
+            html,
+            body {
+                margin: 0;
+            }
+            body {
+                /* Typo */
+                font-family: 'Montserrat', sans-serif;
+                color: #333333;
+                -webkit-font-smoothing: antialiased;
+
+                /* Visual */
+                background-color: #eaeaea;
+            }
+            img {
+                border-radius: 50%;
+            }
+            body > header {
+                /* Box model */
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                padding: 1rem;
+
+                /* Visual */
+                background-color: #ffffff;
+            }
+            .Header__titles {
+                display: flex;
+                flex-direction: column;
+                margin-left: 1rem;
+            }
+            h1, h2 {
+                /* Box model */
+                margin:0;
+            }
+            h1 {
+                font-weight: 400;
+            }
+            h2 {
+                /* Typo */
+                color: #888888;
+                font-size: 1.4rem;
+                font-weight: 300;
+            }
+            h3 {
+                /* Box model */
+                margin: 2rem 0 0;
+                padding: 0 0 .4rem;
+                /* Typo */
+                font-size: 1.4rem;
+                font-weight: 400;
+                text-transform: uppercase;
+                /* Visual */
+                border-bottom: 2px solid #333333;
+            }
+            main {
+                /* Box model */
+                max-width: 42em;
+                margin: 0 auto;
+                padding: 1rem;
+            }
+            section > header {
+                display: inline-flex;
+            }
+            p{
+                /* Typo */
+                font-size: 1.4rem;
+                font-weight: 300;
+                line-height: 1.5;
+            }
+            p {
+                font-size: 1.4rem;
+            }
+            p + p {
+                margin-top: 0;
+            }
+            a, a:visited {
+                /* Box model */
+                padding-bottom: .1rem;
+                /* Typo */
+                color: #333333;
+                text-decoration: none;
+                font-weight: 400;
+                /* Visual */
+                border-bottom: 1px solid #cccccc;
+                transition: border-bottom-color .2s linear;
+            }
+            a:hover {
+                border-bottom-color: #333333;
+            }
+            strong {
+                font-weight: 400;
+            }
+            ul {
+                /* Box model */
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0;
+                /* Visual */
+                list-style-type: none;
+
+                font-size: 1rem;
+            }
+            li:not(:first-child) {
+                padding-left: 1.6rem;
+            }
+            body > footer {
+                /* Box model */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 1rem;
+                height: 4rem;
+                /* Visual */
+                border-top: 1px solid #cccccc;
+            }
+            footer a,  footer a:visited {
+                /* Box model */
+                padding-bottom: .2rem;
+                /* Typo */
+                color: #888888;
+                /* Visual */
+                border-style: none;
+                transition: color .2s linear;
+            }
+            footer a:hover {
+                color: #333333;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="jerome-raffin.jpg" alt="Jérôme Raffin" height="84" width="84" />
+            <div class="Header__titles">
+                <h1>Jérôme Raffin</h1>
+                <h2>UX/UI designer et développeur web</h2>
+            </div>
+        </header>
+        <main>
+            <section>
+                <header>
+                    <h3>Présentation</h3>
+                </header>
+                <p>Bonjour, je suis Jérôme Raffin, développeur web étudiant @ <a href="https://wildcodeschool.fr/bordeaux/" title="Wild Code School Bordeaux">WildCodeSchool</a> et UX/UI designer @ <a href="https://jrbros.fr/" title="JR Bros - Applications web progressives et sites web">JRBros</a>.</p>
+                <p>Je conçois et développe des <strong>applications web progressives</strong> et des <strong>sites web</strong></p>
+            </section>
+            <section>
+                <header>
+                    <h3>Compétences techniques</h3>
+                </header>
+                <p>
+                    HTML5, CSS3, JavaScript, AngularJS, ReactJS, NodeJS, Sketch, Invision, Méthode SCRUM
+                </p>
+                </section>
+        </main>
+        <footer>
+            <ul>
+                <li>
+                    <a href="https://github.com/jeromeraffin" title="GitHub">GitHub</a>
+                </li>
+                <li>
+                    <a href="www.linkedin.com/in/jérôme-raffin" title="LinkedIn">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/JeromeRaffin" title="Twitter">Twitter</a>
+                </li>
+                <li>
+                    <a href="mailto:raffin.jerome@gmail.com" title="Me contacter">Me contacter</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
